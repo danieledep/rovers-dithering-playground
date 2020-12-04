@@ -9,7 +9,7 @@ demo: [https://danieledep.github.io/rovers-dithering-playground/](https://daniel
 
 ## Build  
 
-Download your own [NASA API key](https://api.nasa.gov/) and enter it in:  `NasaApiKey.js`  
+Download your own [NASA API key](https://api.nasa.gov/) and enter it in:  `src/NasaApiKey.js`  
 Run in your terminal:
 
 ```
