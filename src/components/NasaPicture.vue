@@ -51,7 +51,7 @@
 
 export default {
 
-  props: ["downloadPic", "picId", "didaCamera", "didaRover", "didaCoord", "didaMissionSol", "didaMissionDuration", "imageLink", "setEffect", "threshold"],
+  props: ["picId", "didaCamera", "didaRover", "didaCoord", "didaMissionSol", "didaMissionDuration", "imageLink", "setEffect", "threshold"],
   data() {
     return {
       canvasPic: "",
