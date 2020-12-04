@@ -1,6 +1,6 @@
 # 🔴 rovers-dithering-playground
 
-![cover](https://danieledep.github.io/whole-mars-calendar/0-0.png)
+![cover](https://danieledep.github.io/rovers-dithering-playground/0-0.png)
 
 ## Neat, what is this?  
 A dithering playground, built on the NASA APIs.
