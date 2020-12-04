@@ -3,9 +3,20 @@
 ![cover](https://danieledep.github.io/rovers-dithering-playground/0-0.png)
 
 ## Neat, what is this?  
-A dithering playground, built on the NASA APIs.
+A dithering playground, built on the NASA APIs.  
+demo: [https://danieledep.github.io/rovers-dithering-playground/](https://danieledep.github.io/rovers-dithering-playground/)  
 
-[Sign up to the newsletter](https://tinyletter.com/danieledep)
+
+## Build  
+
+Download your own [NASA API key](https://api.nasa.gov/) and enter it in:  `src/NasaApiKey.js`  
+Run in your terminal:
+
+```
+npm run build   
+npm run dev
+```
+
 
 ## Credits
 
@@ -13,6 +24,7 @@ A dithering playground, built on the NASA APIs.
 *   data inputs use the great [Tweakpane](https://cocopon.github.io/tweakpane/)
 
 ## Follow for more  
+[Sign up to the newsletter](https://tinyletter.com/danieledep)  
 [twitter link](https://twitter.com/danieledep)  
 [github link](https://github.com/danieledep)  
 
