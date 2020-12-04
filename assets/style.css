@@ -103,7 +103,7 @@ div#info {
 h1#info-title {
   font-size: xxx-large;
   width: 100%;
-  text-align: center;
+  text-align: left;
   margin: auto;
 }
 
@@ -146,16 +146,13 @@ h1#info-title {
   font-family: 'Inconsolata', monospace !important;
   margin-top: auto;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto auto auto auto;
   grid-template-areas:
     "pic pic pic pic pic pic pic"
-    "head head head head head head head"
-    "cal cal cal cal cal cal cal"
-    "orb orb orb map map map map"
     ;
   max-width: 1024px;
-  margin: 100px auto;
+  background-color: white;
 }
 
 #picture {
