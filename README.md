@@ -13,7 +13,7 @@ Download your own [NASA API key](https://api.nasa.gov/) and enter it in:  `src/N
 Run in your terminal:
 
 ``
-npm run build   
+npm run build      
 npm run dev
 ``
 
