@@ -1,6 +1,6 @@
 # 🔴 rovers-dithering-playground
 
-![cover](https://danieledep.github.io/rovers-dithering-playground/0-0.png)
+![cover](https://github.com/danieledep/rovers-dithering-playground/blob/dist/0-0.png)
 
 ## Neat, what is this?  
 A dithering playground, built on the NASA APIs.  
