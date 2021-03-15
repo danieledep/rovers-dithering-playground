@@ -40,6 +40,10 @@
       <p> {{this.getVerticalCo(didaCoord[1])}} {{this.getHorizontalCo(didaCoord[0])}},&nbsp;</p>
       </div>
 
+      <div class="float-right" v-if="didaRover=='Perseverance'">
+      <p> Jezero Crater,&nbsp;</p>
+      </div>
+
      </div>
   </div>
   
