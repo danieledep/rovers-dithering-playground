@@ -134,6 +134,7 @@ export default {
           Curiosity: 'Curiosity',
           Spirit: 'Spirit',
           Opportunity: 'Opportunity',
+          Perseverance: 'Perseverance',
         },
       }).on('change', (rover) => {
 
@@ -277,7 +278,7 @@ export default {
     getManifest() {
 
       // set rover for API call
-      const regexRovers = /SETROVER|curiosity|spirit|opportunity/gi;
+      const regexRovers = /SETROVER|curiosity|spirit|opportunity|perseverance/gi;
 
       this.manifestUrl = this.manifestUrl.replace(regexRovers, this.rover.toLowerCase())
       
@@ -297,8 +298,12 @@ export default {
       if (document.getElementById("picture").classList.contains("wholeBlack")) document.getElementById("picture").classList.remove("wholeBlack")
 
       // set rover and camera for manifest api call
-      const regexRovers = /SETROVER|curiosity|spirit|opportunity/gi;
+      const regexRovers = /SETROVER|curiosity|spirit|opportunity|perseverance/gi;
       this.manifestUrl = this.manifestUrl.replace(regexRovers, this.rover.toLowerCase())
+
+      // set camera if  rover is Perseverance
+      if (this.rover == "Perseverance") this.cam = "NAVCAM_RIGHT";
+      else this.cam = "NAVCAM";
       
       var vm = this;
 
@@ -378,7 +383,7 @@ export default {
 
 
       // set rover and camera for manifest api call
-      const regexRovers = /SETROVER|curiosity|spirit|opportunity/gi;
+      const regexRovers = /SETROVER|curiosity|spirit|opportunity|perseverance/gi;
       this.manifestUrl = this.manifestUrl.replace(regexRovers, this.rover.toLowerCase())
       
       var vm = this;
@@ -482,7 +487,6 @@ export default {
     this.initPanelPicture()
 
     this.getRandomPic()
-
     
   }
 
