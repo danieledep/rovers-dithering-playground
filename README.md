@@ -6,6 +6,12 @@
 A dithering playground, built on the NASA APIs.  
 demo: [https://danieledep.github.io/rovers-dithering-playground/](https://danieledep.github.io/rovers-dithering-playground/)  
 
+![postcard demo 1](https://github.com/danieledep/rovers-dithering-playground/blob/dist/Curiosity-1331-558097.jpeg)
+*A postcard from the Curiosity rover at Gale Crater*  
+
+![postcard demo 2](https://github.com/danieledep/rovers-dithering-playground/blob/dist/Curiosity-46-31799.jpeg)
+*A eerie finding from Curiosity*   
+
 
 ## Build  
 
