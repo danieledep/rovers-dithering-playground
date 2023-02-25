@@ -22,6 +22,10 @@ npm run build
 npm run dev
 ```
 
+## Todos
+- [ ] Fix new rover api
+- [ ] Explore other visual effects (eg: glitch)
+- [ ] New name: retro-postcards-from-mars
 
 ## Credits
 
