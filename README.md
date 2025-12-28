@@ -1,11 +1,12 @@
 # 🔴 rovers-dithering-playground
 
-![cover](https://github.com/danieledep/rovers-dithering-playground/blob/main/assets/0-0.png)
 
 > ⚠️ **WARNING**    
 > **This repository is outdated and no longer maintained.**   
 > The Rovers APIs project has been retired
 > [https://github.com/corincerami/mars-photo-api](https://github.com/corincerami/mars-photo-api)
+
+![cover](https://github.com/danieledep/rovers-dithering-playground/blob/main/assets/0-0.png)
 
 ## Neat, what is this?  
 A dithering playground, built on the NASA APIs.  
